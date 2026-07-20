@@ -18,10 +18,18 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: "Jony & Tainara — Álbum do Casamento",
   description: "Envie suas fotos e vídeos do casamento de Jony e Tainara. Compartilhe suas memórias!",
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png" },
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Jony & Tainara — Casamento",
     description: "Envie suas fotos e vídeos do casamento!",
     type: "website",
+    images: ["/icon-512.png"],
   },
 };
 
